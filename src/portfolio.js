@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: '/',
+  title: 'My Portfolio',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Hi, I am Prateek Pandey',
+  role: 'Full Stack Web Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Welcome to my portfolio website! As a full-stack web developer, I specialize in crafting dynamic, interactive, and user-friendly web experiences. With expertise in both front-end and back-end technologies, I bring ideas to life through elegant design and robust functionality.',
+  resume: 'https://drive.google.com/file/d/1HFmRPu3A9Awa5_C1rR9IMHgVhPR2_6Jd/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'www.linkedin.com/in/prateek-p-0b6587137',
+    github: 'https://github.com/prateekp106',
   },
 }
 
@@ -21,25 +21,25 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Text Utils',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'We offer a suite of powerful tools designed to streamline your text manipulation tasks and enhance your productivity.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'News App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      ' Designed for news enthusiasts, professionals, and casual readers alike, our app delivers the latest headlines,  and categorized updates tailored to your interests.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'INoteBook',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Whether youre a student, professional, or creative thinker, iNotebook empowers you to turn inspiration into action with ease and efficiency.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
@@ -52,20 +52,20 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
+  'Bootstrap',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'C#',
+  'Asp.Net FrameWork',
+  'Microsoft SQL Server',
+  'Building API'
+
+
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'Prateekp106@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
